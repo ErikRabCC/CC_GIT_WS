@@ -1,3 +1,5 @@
 document.querySelector("#btnCounter").addEventListener("click", () => {
-    document.querySelector(".number").innerHTML = "asd123"
+    const numberDiv = document.querySelector("#number")
+
+    numberDiv.innerHTML = parseInt(numberDiv.innerHTML) + 1
 })
